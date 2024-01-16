@@ -19,7 +19,7 @@ body {
 
 header {
     background-image: url('images/mobile/image-header.jpg');
-    height: 90vh;
+    height: 538px;
     background-position: center bottom;
     background-size: cover;
 }
@@ -45,19 +45,54 @@ header h1 {
     letter-spacing: 12px;
     text-align: center;
     color: white;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 #seta {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-section {
+.conteudo {
+    height: 470px;
+}
+
+.titulo-conteudo {
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+    color:  hsl(212, 27%, 19%);
+    text-align: center;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.div-conteudo {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    width: 350px;
+    color: hsl(232, 10%, 55%);
+    text-align: center;
+    line-height: 2em;   
+    margin: 20px auto 0px auto;
+    padding: 10px;
+}
+
+.conteudo p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#section-egg {
     background-image: url(images/mobile/image-transform.jpg);
-    height: 50vh;
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#taca {
+    background-image: url(images/mobile/image-stand-out.jpg);
+    height: 350px;
     background-position: center center;
     background-size: cover;
 }
