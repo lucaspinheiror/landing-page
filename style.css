@@ -10,7 +10,6 @@
 }
 
 body {
-    width: 100vw;
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Fraunces', serif;
@@ -88,15 +87,18 @@ header h1 {
 
 #navigation ul li {
     overflow: hidden;
+
 }
 
 #navigation ul li a {
+    display: inline-block;
     font-family:  'Barlow', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 16px 35px;
+
     color: hsl(232, 10%, 55%);
-    border-radius: 100px;
+    border-radius: 50px;
     position: relative;
     transition: .6s ease;
 
@@ -111,6 +113,10 @@ header h1 {
     color: hsl(212, 27%, 19%);
     transition: .6s ease;
 
+}
+
+#navigation-desk {
+    visibility: hidden;
 }
 
 /* FIM DO HEADER */
@@ -148,6 +154,11 @@ header h1 {
     justify-content: center;
 }
 
+#learn-more-1 {
+     color: hsl(212, 27%, 19%);
+     text-decoration: none;
+}
+
 #learn-more-1::after {
     content: '';
     background-color: hsla(51, 100%, 49%, 0.219);
@@ -157,12 +168,19 @@ header h1 {
     margin-left: -6px;
     margin-top: -8px;
     border-radius: 4px;
+    transition: .6s;
 }
 
 #div-learn-more-2 {
     display: flex;
     justify-content: center;
 }
+
+#learn-more-2 {
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+}
+
 
 #learn-more-2::after {
     content: '';
@@ -173,6 +191,7 @@ header h1 {
     margin-left: -6px;
     margin-top: -8px;
     border-radius: 4px;
+    transition: .6s;
 }
 
 .conteudo p {
@@ -354,9 +373,17 @@ header h1 {
     font-weight: 600;
 }
 
+#footer-servicos a {
+    text-decoration: none;
+    color: #519285;
+    transition: .6s;
+}
+
+
 #footer-redes {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 4em;
 }
+

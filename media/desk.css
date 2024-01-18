@@ -9,6 +9,7 @@
     }
 
     #navigation-desk {
+        visibility: visible;
         position: absolute;
         top: 40px;
         right: 270px;
@@ -72,6 +73,20 @@
 
     .conteudo {
         width: 50%;
+        text-align: center;
+    }
+
+    .conteudo-desk {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .conteudo-desk h2 {
+        text-align: left;
+    }
+    
+    .conteudo-desk p {
+        text-align: left;
     }
 
     #conteudo-1 {
@@ -80,6 +95,14 @@
 
     #conteudo-2 {
         order: 4;
+    }
+
+    #learn-more-1:hover::after {
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    #learn-more-2:hover::after {
+        background-color: hsl(7, 99%, 70%);
     }
 
     #cereja {
@@ -94,5 +117,55 @@
         width: 50%;
         height: 600px;
         order: 6;
+    }
+
+    #article-clientes {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    #div-testemunhas {
+        display: flex;
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .testemunhas {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #article-4-imagens {
+        flex-wrap: nowrap;
+        height: 450px;
+    }
+
+    #milk {
+        background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+        height: 100%;
+    }
+    
+    #orange {
+        background-image: url(../images/desktop/image-gallery-orange.jpg);
+        height: 100%;
+    }
+
+    #sorvete {
+        background-image: url(../images/desktop/image-gallery-cone.jpg);
+        height: 100%;
+    }
+
+    #sugar {
+        background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+        height: 100%; 
+    }
+
+    #footer-servicos a:hover {
+        color: white;
+    }
+
+    #footer-redes a img:hover {
+        fill: white;
     }
 }
