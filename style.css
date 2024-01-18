@@ -10,7 +10,6 @@
 }
 
 body {
-    background-color: aliceblue;
     width: 100vw;
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
@@ -22,8 +21,6 @@ body {
 header {
     background-image: url('images/mobile/image-header.jpg');
     height: 551px;
-    width: 375px;
-    margin: auto;
     background-position: center bottom;
     background-size: cover;
     position: relative;
@@ -181,8 +178,6 @@ header h1 {
 #section-egg {
     background-image: url(images/mobile/image-transform.jpg);
     height: 350px;
-    width: 375px;
-    margin: auto;
     background-position: center center;
     background-size: cover;
 }
@@ -190,8 +185,6 @@ header h1 {
 #taca {
     background-image: url(images/mobile/image-stand-out.jpg);
     height: 350px;
-    width: 375px;
-    margin: auto;
     background-position: center center;
     background-size: cover;
 }
@@ -203,8 +196,6 @@ header h1 {
     background-image: url(images/mobile/image-graphic-design.jpg);
     background-size: cover;
     height: 600px;
-    width: 375px;
-    margin: auto;
 }
 
 #cereja h1 {
@@ -230,8 +221,6 @@ header h1 {
     background-image: url(images/mobile/image-photography.jpg);
     background-size: cover;
     height: 600px;
-    width: 375px;
-    margin: auto;
 }
 
 #laranja h1{
@@ -303,8 +292,6 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    width: 375px;
-    margin: auto;
 }
 
 #milk {
@@ -346,8 +333,6 @@ header h1 {
     background-color: #90D4C6;
     text-align: center;
     padding: 80px 0px 100px 0px;
-    width: 375px;
-    margin: auto;
 }
 
 #logo-sunny-footer {
