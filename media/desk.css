@@ -1,0 +1,98 @@
+@media screen and (min-width: 1440px){
+    header {
+        background-image: url(../images/desktop/image-header.jpg);
+        height: 730px;
+    }
+
+    #icon-burguer {
+        display: none;
+    }
+
+    #navigation-desk {
+        position: absolute;
+        top: 40px;
+        right: 270px;
+        width: 100px;
+        height: 100px;
+        overflow: visible;
+        transition: 0;
+    }
+
+    #navigation-desk ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    #navigation-desk ul li {
+        margin-right: 2px;
+    }
+
+    #navigation-desk ul li a {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 600;
+        padding: 14px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: white;
+        transition: .6s;
+    }
+
+    #navigation-desk ul li a:hover{
+        font-family: 'Fraunces', serif;
+        background-color: rgba(255, 255, 255, 0.199);
+        font-variant-caps: all-petite-caps;
+        font-size: 1.1em;
+    }
+
+  
+
+    #seta {
+        margin-top: 90px;
+    }
+
+    #abaixo-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-egg {
+        background-image: url(../images/desktop/image-transform.jpg);
+        width: 50%;
+        height: 600px;
+        order: 2;
+    }
+
+    #taca {
+        background-image: url(../images/desktop/image-stand-out.jpg);
+        width: 50%;
+        height: 600px;
+        order: 3;
+    }
+
+    .conteudo {
+        width: 50%;
+    }
+
+    #conteudo-1 {
+        order: 1;
+    }
+
+    #conteudo-2 {
+        order: 4;
+    }
+
+    #cereja {
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+        width: 50%;
+        height: 600px;
+        order: 5;
+    }
+
+    #laranja {
+        background-image: url(../images/desktop/image-photography.jpg);
+        width: 50%;
+        height: 600px;
+        order: 6;
+    }
+}

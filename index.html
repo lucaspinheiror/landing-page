@@ -8,7 +8,9 @@
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media/desk.css">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -22,6 +24,16 @@
     <div id="menu">
       <div><img src="images/logo.svg" alt="Logo" id="logo-sunny"></div>
 
+      
+    <nav id="navigation">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
       <div><img src="images/icon-hamburger.svg" alt="Burguer menu" id="icon-burguer" onclick="menuAbrir()">
       </div>
     </div>
@@ -29,7 +41,8 @@
     <h1>WE ARE CREATIVES</h1>
     <div  id="seta"><img src="images/icon-arrow-down.svg" alt="Seta"></div>
 
-    <nav id="navigation">
+
+    <nav id="navigation-desk">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -41,11 +54,11 @@
 
   <main>
 
-    <div>
+    <div id="abaixo-header">
       <section id="section-egg">
           <!--Background Image-->
       </section>
-      <section class="conteudo">
+      <section class="conteudo" id="conteudo-1">
         <h2 class="titulo-conteudo"> Transform your <br> brand</h2>
         <div class="div-conteudo">
           <p>We are a full-service creative agency specializing in helping brands grow fast.
@@ -59,7 +72,7 @@
         <!--Background Image-->
       </section>
       
-      <section class="conteudo">
+      <section class="conteudo" id="conteudo-2">
         <h2 class="titulo-conteudo">Stand out to the <br> right audience</h2>
         <div class="div-conteudo">
           <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
