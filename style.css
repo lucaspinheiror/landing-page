@@ -10,16 +10,20 @@
 }
 
 body {
+    background-color: aliceblue;
     width: 100vw;
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Fraunces', serif;
     font-size: 18px;
+
 }
 
 header {
     background-image: url('images/mobile/image-header.jpg');
     height: 551px;
+    width: 375px;
+    margin: auto;
     background-position: center bottom;
     background-size: cover;
     position: relative;
@@ -71,7 +75,7 @@ header h1 {
 #navigation.abrir {
     visibility: visible;
     height: 335px;
-    width: 335px;
+    width: 350px;
 }
 
 #navigation ul {
@@ -110,7 +114,12 @@ header h1 {
 /* FIM DO HEADER */
 
 .conteudo {
-    height: 470px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 520px;
+    width: 375px;
+    margin: auto;
 }
 
 .titulo-conteudo {
@@ -119,7 +128,6 @@ header h1 {
     color:  hsl(212, 27%, 19%);
     text-align: center;
     font-weight: 900;
-    margin-top: 60px;
 }
 
 .div-conteudo {
@@ -173,6 +181,8 @@ header h1 {
 #section-egg {
     background-image: url(images/mobile/image-transform.jpg);
     height: 350px;
+    width: 375px;
+    margin: auto;
     background-position: center center;
     background-size: cover;
 }
@@ -180,6 +190,8 @@ header h1 {
 #taca {
     background-image: url(images/mobile/image-stand-out.jpg);
     height: 350px;
+    width: 375px;
+    margin: auto;
     background-position: center center;
     background-size: cover;
 }
@@ -191,6 +203,8 @@ header h1 {
     background-image: url(images/mobile/image-graphic-design.jpg);
     background-size: cover;
     height: 600px;
+    width: 375px;
+    margin: auto;
 }
 
 #cereja h1 {
@@ -216,6 +230,8 @@ header h1 {
     background-image: url(images/mobile/image-photography.jpg);
     background-size: cover;
     height: 600px;
+    width: 375px;
+    margin: auto;
 }
 
 #laranja h1{
@@ -237,8 +253,11 @@ header h1 {
 /*AREA CLIENTES*/
 
 #article-clientes {
+    background-color: white;
     display: flex;
     flex-direction: column;
+    width: 375px;
+    margin: auto;
     padding-bottom: 5em;
 }
 
@@ -284,6 +303,8 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
+    width: 375px;
+    margin: auto;
 }
 
 #milk {
@@ -325,6 +346,8 @@ header h1 {
     background-color: #90D4C6;
     text-align: center;
     padding: 80px 0px 100px 0px;
+    width: 375px;
+    margin: auto;
 }
 
 #logo-sunny-footer {
@@ -347,4 +370,3 @@ header h1 {
     gap: 30px;
     margin-top: 4em;
 }
-
