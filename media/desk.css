@@ -1,7 +1,13 @@
 @media screen and (min-width: 1440px){
+    #fundo-header {
+        background-color: #3EBFFF;
+    }
+
     header {
         background-image: url(../images/desktop/image-header.jpg);
         height: 730px;
+        max-width: 1440px;
+        margin: auto;
     }
 
     #icon-burguer {
@@ -12,7 +18,7 @@
         visibility: visible;
         position: absolute;
         top: 40px;
-        right: 270px;
+        right: 430px;
         width: 100px;
         height: 100px;
         overflow: visible;
@@ -36,7 +42,7 @@
         border-radius: 50px;
         text-decoration: none;
         color: white;
-        transition: .6s;
+        transition: .4s;
     }
 
     #navigation-desk ul li a:hover{
@@ -52,12 +58,21 @@
         margin-top: 90px;
     }
 
+/* CONTEÚDO */
+
+    main {
+        background-color: rgba(241, 241, 241, 0.418);
+    }
+
     #abaixo-header {
+        max-width: 1440px;
         display: flex;
+        margin: auto;
         flex-wrap: wrap;
     }
 
     #section-egg {
+        background-color: black;
         background-image: url(../images/desktop/image-transform.jpg);
         width: 50%;
         height: 600px;
@@ -72,8 +87,10 @@
     }
 
     .conteudo {
+        height: 600px;
         width: 50%;
         text-align: center;
+        padding-top: 120px;
     }
 
     .conteudo-desk {
@@ -119,15 +136,15 @@
         order: 6;
     }
 
-    #article-clientes {
+    #article-clientes {  
         width: 100%;
         padding-top: 100px;
         padding-bottom: 200px;
+        margin: auto;
     }
 
     #div-testemunhas {
         display: flex;
-        width: 100%;
         margin-top: 70px;
     }
 
@@ -137,8 +154,10 @@
     }
 
     #article-4-imagens {
+        max-width: 1440px;
         flex-wrap: nowrap;
         height: 450px;
+        margin: auto;
     }
 
     #milk {
