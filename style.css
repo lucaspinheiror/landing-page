@@ -10,6 +10,7 @@
 }
 
 body {
+    background-color: rgba(247, 247, 247, 0.555);
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Fraunces', serif;
@@ -23,6 +24,8 @@ header {
     background-position: center bottom;
     background-size: cover;
     position: relative;
+    width: 414px;
+    margin: auto;
 }
 
 #menu {
@@ -121,12 +124,17 @@ header h1 {
 
 /* FIM DO HEADER */
 
+main {
+    margin: auto;
+    width: 414px;
+}
+
 .conteudo {
     background-color: white;
     padding-top: 60px;
     padding-bottom: 50px;
     height: 520px;
-    width: 375px;
+    width: 414px;
     margin: auto;
 }
 
@@ -263,13 +271,14 @@ header h1 {
     color: hsl(198, 62%, 26%);
 }
 
-/*AREA CLIENTES*/
+/*CLIENTES CLIENTES CLIENTES CLIENTES CLIENTES*/
 
 #article-clientes {
     background-color: white;
     display: flex;
+    flex-grow: 60px;
     flex-direction: column;
-    width: 375px;
+    width: 414px;
     margin: auto;
     padding-bottom: 5em;
 }
@@ -290,7 +299,7 @@ header h1 {
     text-align: center;
     line-height: 2em;
     color: hsl(232, 10%, 55%);
-    font-weight: 600
+    font-weight: 600;
 }
 
 .fotos-clientes {
@@ -357,6 +366,8 @@ header h1 {
     background-color: #90D4C6;
     text-align: center;
     padding: 80px 0px 100px 0px;
+    width: 414px;
+    margin: auto;
 }
 
 #logo-sunny-footer {

@@ -61,7 +61,7 @@
 /* CONTEÚDO */
 
     main {
-        background-color: rgba(241, 241, 241, 0.418);
+        width: 100%;     
     }
 
     #abaixo-header {
@@ -137,10 +137,10 @@
     }
 
     #article-clientes {  
+        max-width: 1440px;
         width: 100%;
         padding-top: 100px;
         padding-bottom: 200px;
-        margin: auto;
     }
 
     #div-testemunhas {
@@ -178,6 +178,13 @@
     #sugar {
         background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
         height: 100%; 
+    }
+
+    /*FOOTER*/
+
+    #footer {
+        max-width: 100%;
+        width: 100%;
     }
 
     #footer-servicos a:hover {

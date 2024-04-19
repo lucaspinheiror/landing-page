@@ -4,7 +4,6 @@ function menuAbrir(){
     menu.classList.toggle('abrir')
 } 
 
-
 function fecharMenuMobile() {
     const larguraTela = window.innerWidth;
 
