@@ -10,11 +10,12 @@
 }
 
 body {
-    background-color: rgba(247, 247, 247, 0.555);
+    background-image: linear-gradient(to bottom, #03abff1e, #ffd50025, #ff190013, #00ffbb13);
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Fraunces', serif;
     font-size: 18px;
+    height: 100%;
 
 }
 
@@ -24,7 +25,8 @@ header {
     background-position: center bottom;
     background-size: cover;
     position: relative;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     margin: auto;
 }
 
@@ -73,7 +75,8 @@ header h1 {
 #navigation.abrir {
     visibility: visible;
     height: 335px;
-    width: 363px;
+    width: 87.7%;
+    max-width: 414px;
 }
 
 #navigation ul {
@@ -114,7 +117,7 @@ header h1 {
     font-variant-caps: all-petite-caps;
     font-size: 1.3em;
     color: hsl(212, 27%, 19%);
-    transition: .6s ease;
+    transition: .4s ease;
 
 }
 
@@ -126,7 +129,8 @@ header h1 {
 
 main {
     margin: auto;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
 }
 
 .conteudo {
@@ -134,7 +138,8 @@ main {
     padding-top: 60px;
     padding-bottom: 50px;
     height: 520px;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     margin: auto;
 }
 
@@ -278,7 +283,8 @@ main {
     display: flex;
     flex-grow: 60px;
     flex-direction: column;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     margin: auto;
     padding-bottom: 5em;
 }
@@ -366,7 +372,7 @@ main {
     background-color: #90D4C6;
     text-align: center;
     padding: 80px 0px 100px 0px;
-    width: 414px;
+    width: 100%;
     margin: auto;
 }
 
@@ -387,7 +393,7 @@ main {
 #footer-servicos a {
     text-decoration: none;
     color: #519285;
-    transition: .6s;
+    transition: .4s;
 }
 
 

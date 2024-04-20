@@ -1,13 +1,14 @@
 @media screen and (min-width: 1440px){
-    #fundo-header {
-        background-color: #3EBFFF;
-    }
 
     header {
         background-image: url(../images/desktop/image-header.jpg);
         height: 730px;
         max-width: 1440px;
         margin: auto;
+    }
+
+    #fundo-header {
+        background-color: #3EBFFF;
     }
 
     #icon-burguer {
@@ -32,7 +33,7 @@
     }
 
     #navigation-desk ul li {
-        margin-right: 2px;
+        margin-right: 10px;
     }
 
     #navigation-desk ul li a {
@@ -43,16 +44,15 @@
         text-decoration: none;
         color: white;
         transition: .4s;
+        
     }
 
     #navigation-desk ul li a:hover{
         font-family: 'Fraunces', serif;
         background-color: rgba(255, 255, 255, 0.199);
         font-variant-caps: all-petite-caps;
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
-
-  
 
     #seta {
         margin-top: 90px;
@@ -61,7 +61,7 @@
 /* CONTEÚDO */
 
     main {
-        width: 100%;     
+        max-width: 1440px;     
     }
 
     #abaixo-header {
@@ -88,7 +88,8 @@
 
     .conteudo {
         height: 600px;
-        width: 50%;
+        width: 100%;
+        max-width: 50%;
         text-align: center;
         padding-top: 120px;
     }

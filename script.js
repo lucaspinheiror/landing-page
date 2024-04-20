@@ -19,3 +19,4 @@ function fecharMenuMobile() {
 }
 
 window.addEventListener('resize', fecharMenuMobile);
+
