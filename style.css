@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #03abff1e, #ffd50025, #ff190013, #00ffbb13);
+    background-color: whitesmoke;
     height: 100vh;
     /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Fraunces', serif;
@@ -165,6 +165,7 @@ main {
 #div-learn-more-1 {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 #learn-more-1 {
@@ -187,6 +188,7 @@ main {
 #div-learn-more-2 {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 #learn-more-2 {
